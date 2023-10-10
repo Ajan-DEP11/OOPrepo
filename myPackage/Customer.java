@@ -1,7 +1,13 @@
 package myPackage;
 
 public class Customer {
-    public static void main(String[] args) {
-        
-    }
+  private int id;
+  String name;
+  protected String address;
+  public String contact;
+
+  protected void print(){
+    System.out.printf("Id=%s,Name =%s,Address=%s,Conact=%s",id,name,address,contact);
+  }
+
 }
